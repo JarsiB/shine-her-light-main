@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/r1.jpg";
+
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +32,9 @@ const Navigation = () => {
           </Link> */}
           <Link to="/" className="flex items-center">
             <img
-              src="src/assets/r1.jpg"
+              src={logo}
               alt="Respect Women Logo"
-              className="h-14 md:h-20 w-auto" // 🔹 Increased height for all screens
+              className="h-14 md:h-20 w-auto"
             />
           </Link>
 
