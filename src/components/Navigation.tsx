@@ -22,11 +22,18 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/100 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          {/* <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Respect Women
+          </Link> */}
+          <Link to="/" className="flex items-center">
+            <img
+              src="src/assets/r1.jpg"
+              alt="Respect Women Logo"
+              className="h-14 md:h-20 w-auto" // 🔹 Increased height for all screens
+            />
           </Link>
 
           {/* Desktop Menu */}
