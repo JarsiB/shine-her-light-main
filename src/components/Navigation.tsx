@@ -141,13 +141,22 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link
+            to="/"
+            className="flex flex-col items-center no-underline text-inherit"
+          >
             <img
               src={logo}
               alt="Respect Women Logo"
-              className="h-14 md:h-20 w-auto"
+              className="h-12 md:h-16 w-auto"
               data-aos="zoom-in"
             />
+            <span
+              className="mt-0.5 text-sm md:text-base font-semibold text-gray"
+              data-aos="fade-up"
+            >
+              # CELEBRATING HER
+            </span>
           </Link>
 
           {/* Desktop Menu */}
