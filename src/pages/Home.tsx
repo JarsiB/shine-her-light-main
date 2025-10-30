@@ -302,6 +302,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
+      
       <Navigation />
 
       {/* HERO SECTION */}

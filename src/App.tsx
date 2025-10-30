@@ -13,6 +13,7 @@ import Gallery from "./pages/Gallery";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,8 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop></ScrollToTop>
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/initiative" element={<Initiative />} />
