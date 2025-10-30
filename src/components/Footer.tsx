@@ -1,4 +1,12 @@
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import {
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -12,19 +20,32 @@ const Footer = () => {
               Respect Women
             </h3>
             <p className="text-muted-foreground mb-4">
-              Empowering women through awareness, education, and action. Together we create a world of respect and equality.
+              Empowering women through awareness, education, and action.
+              Together we create a world of respect and equality.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all">
+              <a
+                href="#"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all"
+              >
                 <Facebook size={18} />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all">
+              <a
+                href="#"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all"
+              >
                 <Twitter size={18} />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all">
+              <a
+                href="#"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all"
+              >
                 <Instagram size={18} />
               </a>
-              <a href="#" className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all">
+              <a
+                href="#"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all"
+              >
                 <Linkedin size={18} />
               </a>
             </div>
@@ -34,10 +55,38 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/initiative" className="text-muted-foreground hover:text-primary transition-colors">Initiative By</Link></li>
-              <li><Link to="/stories" className="text-muted-foreground hover:text-primary transition-colors">Inspiring Stories</Link></li>
-              <li><Link to="/achievers" className="text-muted-foreground hover:text-primary transition-colors">Achievers</Link></li>
-              <li><Link to="/events" className="text-muted-foreground hover:text-primary transition-colors">Events</Link></li>
+              <li>
+                <Link
+                  to="/initiative"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Initiative By
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/stories"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Inspiring Stories
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/achievers"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Achievers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/events"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Events
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -45,10 +94,38 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><Link to="/news" className="text-muted-foreground hover:text-primary transition-colors">News & Updates</Link></li>
-              <li><Link to="/supporters" className="text-muted-foreground hover:text-primary transition-colors">Supporters Voice</Link></li>
-              <li><Link to="/gallery" className="text-muted-foreground hover:text-primary transition-colors">Gallery</Link></li>
-              <li><Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
+              <li>
+                <Link
+                  to="/news"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  News & Updates
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/supporters"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Supporters Voice
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/gallery"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Gallery
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="no-underline text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -73,7 +150,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Respect Women Campaign. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Respect Women Campaign. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>
