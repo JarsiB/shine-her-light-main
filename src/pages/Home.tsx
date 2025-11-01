@@ -175,7 +175,7 @@ const heroImage =
 const aboutImage =
   "https://media.istockphoto.com/id/1140611137/photo/a-panel-of-women-present-information.jpg?s=612x612&w=0&k=20&c=9bjySm4MvhrzEFoWPwKF5uIWcMHWreEtunKm-vCg0yU=";
 const storiesImage =
-  "https://e3.365dm.com/23/05/2048x1152/skynews-chelsea-wsl_6170197.jpg?20230527184756";
+  "https://images.inc.com/uploaded_files/image/1920x1080/getty_615524918_407969.jpg";
 
 const Home = () => {
   const [current, setCurrent] = useState(0);
@@ -210,7 +210,7 @@ const Home = () => {
   const slides = [
     {
       image:
-        "https://womeningh.org/wp-content/uploads/2023/03/B5D8EFBE-C93D-4771-9F77-38FBD8709B1D_1_201_a-scaled.jpeg",
+        "https://wallpapers.com/images/hd/women-background-7707hoeyngzby23r.jpg",
       title: "Manapakkam Apartments",
       subtitle: "LAUNCHING",
       location: "Education for Every Girl",
@@ -219,7 +219,7 @@ const Home = () => {
     },
     {
       image:
-        "https://i.pinimg.com/originals/ba/52/ff/ba52ff2e19140b4a8666931cb55167f9.jpg",
+        "https://media.istockphoto.com/id/1459585618/vector/womens-history-month-card-poster-template-background-vector-eps-10.jpg?s=170667a&w=0&k=20&c=EsqJh5xATV5WhRZrViPM1A81uLnJWKfr0gS0QbaVOqg=",
       title: "KNR Residences",
       subtitle: "LAUNCHED",
       location: "Leadership & Career",
@@ -269,7 +269,7 @@ const Home = () => {
       icon: Book,
       color: "from-pink-500 to-rose-400",
       image:
-        "https://www.frasimania.it/wp-content/uploads/2023/02/frasi-laurea-figli-nipoti.jpg",
+        "https://www.hindustantimes.com/ht-img/img/2023/12/11/550x309/IMG_0422_1702289673040_1702289679191.jpeg",
     },
     // {
     //   title: "Health & Wellness",
@@ -287,7 +287,7 @@ const Home = () => {
       icon: Star,
       color: "from-violet-500 to-indigo-400",
       image:
-        "https://images.rawpixel.com/image_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA4L3Jhd3BpeGVsX29mZmljZV8zNV9iZWF1dGlmdWxfc21pbGluZ195b3VuZ19pbmRpYW5fYnVzaW5lc3Nfd29tYV8yYWM3MjMyNS1jZmU3LTQ5ODgtODBkNi03YjViZTg3ODYzNjNfMS5qcGc.jpg",
+        "https://www.corporatecomplianceinsights.com/wp-content/uploads/2020/03/professionals.jpg",
     },
     {
       title: "Global Voices",
@@ -296,13 +296,12 @@ const Home = () => {
       icon: Globe,
       color: "from-rose-500 to-purple-400",
       image:
-        "https://img.freepik.com/premium-photo/female-motivational-speaker-stage-talking-about-how-success_146508-7260.jpg?w=740",
+        "https://img.freepik.com/premium-photo/woman-megaphone-voice-freedom-speech-assertive-courageous-outspoken-female-standing_590464-260540.jpg?w=2000",
     },
   ];
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      
       <Navigation />
 
       {/* HERO SECTION */}
@@ -345,14 +344,14 @@ const Home = () => {
         {[
           {
             image:
-              "https://womeningh.org/wp-content/uploads/2023/03/B5D8EFBE-C93D-4771-9F77-38FBD8709B1D_1_201_a-scaled.jpeg",
+              "https://wallpapers.com/images/hd/women-background-7707hoeyngzby23r.jpg",
             title: "Respect Women. Empower the Future.",
             description:
               "Empowering women through awareness, education, and action. Together we create a world of respect and equality.",
           },
           {
             image:
-              "https://i.pinimg.com/originals/ba/52/ff/ba52ff2e19140b4a8666931cb55167f9.jpg",
+              "https://media.istockphoto.com/id/1459585618/vector/womens-history-month-card-poster-template-background-vector-eps-10.jpg?s=170667a&w=0&k=20&c=EsqJh5xATV5WhRZrViPM1A81uLnJWKfr0gS0QbaVOqg=",
             title: "Education for Every Girl",
             description:
               "Creating opportunities for girls worldwide through education and mentorship.",
@@ -590,9 +589,9 @@ const Home = () => {
           {/* Left Image */}
           <div className="md:w-1/2">
             <img
-              src="https://media.istockphoto.com/id/1140611137/photo/a-panel-of-women-present-information.jpg?s=612x612&w=0&k=20&c=9bjySm4MvhrzEFoWPwKF5uIWcMHWreEtunKm-vCg0yU="
+              src="https://media.assettype.com/healthday-en%2F2024-09-03%2Fl1j3vfq8%2F457605360.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
               alt="Group of Women"
-              className="rounded-2xl shadow-lg w-full object-cover"
+              className="rounded-2xl shadow-lg w-full h-68 object-cover"
               data-aos="zoom-in"
             />
           </div>
@@ -704,7 +703,7 @@ const Home = () => {
               data-aos="fade-right"
             >
               <img
-                src="https://images.inc.com/uploaded_files/image/1920x1080/getty_484222033_208601.jpg"
+                src="https://familyvaluesatwork.org/wp-content/uploads/2023/06/equal-pay-equal-work-1020x530.jpg"
                 alt="Empowered Women"
                 className="w-full md:w-1/2 h-64 object-cover rounded-t-xl md:rounded-l-xl md:rounded-t-none"
               />
@@ -736,7 +735,7 @@ const Home = () => {
               data-aos="fade-right"
             >
               <img
-                src="https://www.fearlesspresentations.com/wp-content/uploads/2019/02/Fearless-Presentations-Background.jpeg"
+                src="https://img.freepik.com/premium-photo/women-promoting-breast-cancer-awareness_53876-57029.jpg"
                 alt="Women Empowerment Workshop"
                 className="w-full md:w-1/2 h-64 object-cover rounded-t-xl md:rounded-l-xl md:rounded-t-none"
               />
@@ -957,7 +956,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#C94FC5] to-[#7B28B5] transition-transform duration-700 group-hover:scale-105"></div>
               <img
-                src="http://www.voicesofwomenmedia.org/wp-content/uploads/2014/07/1078684_553445924692071_633827631_o.jpg"
+                src="https://static.vecteezy.com/system/resources/previews/018/969/936/original/woman-graduate-college-happy-graduate-student-with-diploma-wearing-a-robe-and-a-square-academic-cap-flat-illustration-on-white-background-vector.jpg"
                 alt="Education & Awareness"
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500"
               />
@@ -974,7 +973,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#C94FC5] to-[#7B28B5] transition-transform duration-700 group-hover:scale-105"></div>
               <img
-                src="https://www.mentorcliq.com/wp-content/uploads/2022/09/Women5-scaled.webp"
+                src="https://www.kindpng.com/picc/m/154-1542561_women-empowerment-leadership-hd-png-download.png"
                 alt="Leadership & Mentorship"
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500"
               />
@@ -991,7 +990,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#C94FC5] to-[#7B28B5] transition-transform duration-700 group-hover:scale-105"></div>
               <img
-                src="https://womeningh.org/wp-content/uploads/2023/03/B5D8EFBE-C93D-4771-9F77-38FBD8709B1D_1_201_a-scaled.jpeg"
+                src="https://plus.unsplash.com/premium_photo-1733342422588-c2fc9e279836?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Community Upliftment"
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500"
               />
@@ -1008,7 +1007,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#C94FC5] to-[#7B28B5] transition-transform duration-700 group-hover:scale-105"></div>
               <img
-                src="https://professional.dce.harvard.edu/wp-content/uploads/sites/9/2020/03/public-speaker.jpg"
+                src="https://hsqetraining.co.uk/wp-content/uploads/2024/08/Skill-and-Development-2024.png"
                 alt="Skill Development"
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500"
               />
@@ -1025,7 +1024,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#C94FC5] to-[#7B28B5] transition-transform duration-700 group-hover:scale-105"></div>
               <img
-                src="https://www.healthkart.com/connect/wp-content/uploads/2020/08/banner-54.jpg"
+                src="https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2022-07/iStock-860615036.jpg?itok=C3XvIP0O"
                 alt="Health & Wellbeing"
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500"
               />
@@ -1042,7 +1041,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#C94FC5] to-[#7B28B5] transition-transform duration-700 group-hover:scale-105"></div>
               <img
-                src="https://content.thriveglobal.com/wp-content/uploads/2019/04/black-collaboration-cooperation-943630.jpg"
+                src="https://img.freepik.com/photos-premium/concept-collaboration-internationale-personnes-differents-pays-travaillant-ensemble-dans-monde-entier_853812-4010.jpg"
                 alt="Global Collaboration"
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500"
               />
@@ -1079,7 +1078,7 @@ const Home = () => {
               data-aos="zoom-in"
             >
               <img
-                src="https://www.unearthwomen.com/wp-content/uploads/2019/06/shutterstock_570462865-3-1200x600.jpg"
+                src="https://your-content.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/11/11135358/iStock-490453735-volunteer.jpg"
                 alt="Volunteer"
                 className="w-full h-48 object-cover rounded-xl mb-6"
               />
@@ -1100,7 +1099,7 @@ const Home = () => {
               data-aos="zoom-in"
             >
               <img
-                src="http://womeninstrata.com.au/wp-content/uploads/2017/07/How-One-Start-Up-Is-Helping-Female-Professionals-Find-Mentors.jpg"
+                src="https://www.aconsciousrethink.com/wp-content/uploads/2015/07/helping-hand.jpg"
                 alt="Mentorship"
                 className="w-full h-48 object-cover rounded-xl mb-6"
               />
@@ -1144,7 +1143,7 @@ const Home = () => {
         className="relative py-24 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://i.pinimg.com/originals/c7/7c/81/c77c81202a7272b4eececdf123887c5a.jpg')",
+            "url('https://i.pinimg.com/originals/fd/37/be/fd37be63c91e085e36fa5ec44319459a.jpg')",
         }}
         ref={ref}
       >
@@ -1155,7 +1154,7 @@ const Home = () => {
         <div className="relative z-10 container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
           {/* LEFT SIDE */}
           <div data-aos="fade-right" className="text-white text-left">
-            <h3 className="text-[#5A0FC8] font-semibold mb-3">Empowerment</h3>{" "}
+            <h3 className="text-[#7B28B5] font-semibold mb-3">Empowerment</h3>{" "}
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
               Respect Women. <br /> Empower the Future.{" "}
             </h2>{" "}
@@ -1181,7 +1180,7 @@ const Home = () => {
                 key={i}
                 className={`rounded-xl border-none transition-all duration-500 ${
                   stat.filled
-                    ? "bg-[#5A0FC8] text-white shadow-xl"
+                    ? "bg-[#7B28B5] text-white shadow-xl"
                     : "bg-transparent border border-white/40 text-white"
                 }`}
                 data-aos="zoom-in"
@@ -1190,7 +1189,7 @@ const Home = () => {
                 <CardContent className="py-10 flex flex-col items-center justify-center">
                   <div
                     className={`mb-4 ${
-                      stat.filled ? "text-white" : "text-[#5A0FC8]"
+                      stat.filled ? "text-white" : "text-[#7B28B5]"
                     }`}
                   >
                     <stat.icon className="w-10 h-10" />
@@ -1238,9 +1237,9 @@ const Home = () => {
               data-aos="fade-up"
             >
               <img
-                src="https://professional.dce.harvard.edu/wp-content/uploads/sites/9/2020/11/women-leadership.jpg"
+                src="https://wallpapers.com/images/hd/leadership-pictures-gsu3peggvym8g5xu.jpg"
                 alt="Leadership Training"
-                className="w-full md:w-1/2 h-64 md:h-auto object-cover"
+                className="w-full md:w-1/2 h-64 md:h-auto object-contain"
               />
               <div className="p-8 flex flex-col justify-center">
                 <h3 className="text-2xl font-semibold text-[#7B28B5] mb-3">
@@ -1274,7 +1273,7 @@ const Home = () => {
               data-aos-delay="100"
             >
               <img
-                src="https://eqmaastricht.com/wp-content/uploads/2019/08/Zelfverdediging-III.gif"
+                src="https://www.ajperri.com/media/uujh0nib/cancer-fight.jpeg?rmode=max&width=500"
                 alt="Self-Defense Sessions"
                 className="w-full md:w-1/2 h-64 md:h-auto object-cover"
               />
@@ -1345,7 +1344,7 @@ const Home = () => {
               data-aos-delay="200"
             >
               <img
-                src="https://orai.com/wp-content/uploads/2021/11/woman-giving-speech-0820.jpg"
+                src="https://adigitalboom.com/wp-content/uploads/2021/06/fastercapital.jpg"
                 alt="Career Guidance"
                 className="w-full md:w-1/2 h-64 md:h-auto object-cover"
               />
@@ -1485,7 +1484,7 @@ const Home = () => {
             {/* Left side image */}
             <div className="md:w-1/2" data-aos="fade-right">
               <img
-                src="https://janebenston.com/wp-content/uploads/2016/08/Career-Success1.png"
+                src="https://i.pinimg.com/originals/fd/37/be/fd37be63c91e085e36fa5ec44319459a.jpg"
                 alt="Empower Women"
                 className="rounded-2xl shadow-lg w-full h-[550px] object-cover object-center"
               />

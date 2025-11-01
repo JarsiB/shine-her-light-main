@@ -30,27 +30,44 @@ const Initiative = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
+
       <main className="pt-32 pb-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold mb-6 text-[#7B28B5]">
               Our Initiative
             </h1>
+            <img
+              src="https://housing-images.n7net.in/0b8ad14c/c267f2ade9b8ee75ddff2ad5a732e3ad/v0/medium.jpg"
+              alt="Our Initiative"
+              className="mx-auto mb-8   max-w-md h-50 object-contain"
+            />
+
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Founded on the principles of equality and respect, our initiative strives to create lasting change through education, advocacy, and community engagement.
+              Founded on the principles of equality and respect, our initiative
+              strives to create lasting change through education, advocacy, and
+              community engagement.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {initiatives.map((initiative, index) => (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all animate-scale-in" style={{ animationDelay: `${index * 0.1}s` }}>
+              <Card
+                key={index}
+                className="border-none shadow-lg hover:shadow-xl transition-all animate-scale-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
                 <CardContent className="p-8">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-[#7B28B5] flex items-center justify-center mb-6">
                     <initiative.icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">{initiative.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{initiative.description}</p>
+
+                  <h3 className="text-2xl font-bold mb-4">
+                    {initiative.title}
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {initiative.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -60,10 +77,17 @@ const Initiative = () => {
             <CardContent className="p-8 md:p-12">
               <h2 className="text-3xl font-bold mb-6">About Our Founders</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                The Respect Women initiative was founded by a diverse group of activists, educators, and community leaders who recognized the urgent need for systemic change in how society views and treats women. 
+                The Respect Women initiative was founded by a diverse group of
+                activists, educators, and community leaders who recognized the
+                urgent need for systemic change in how society views and treats
+                women.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Since our inception, we have worked tirelessly to create programs that educate, empower, and elevate women from all walks of life. Our team is committed to building a movement that transcends borders, cultures, and generations, united by a common goal: respect and equality for all women.
+                Since our inception, we have worked tirelessly to create
+                programs that educate, empower, and elevate women from all walks
+                of life. Our team is committed to building a movement that
+                transcends borders, cultures, and generations, united by a
+                common goal: respect and equality for all women.
               </p>
             </CardContent>
           </Card>
